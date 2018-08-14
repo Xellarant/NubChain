@@ -10,7 +10,7 @@ public class NubChain {
     static StopWatch stopwatch = new StopWatch();
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
-    public static int difficulty = 5;
+    public static int difficulty = 6;
 
     public static void main(String[] args) {
         stopwatch.start();
@@ -28,6 +28,10 @@ public class NubChain {
         blockchain.add(new Block("Hey im the third block",blockchain.get(blockchain.size()-1).hash));
         System.out.println("Trying to Mine block 3... ");
         blockchain.get(2).mineBlock(difficulty);
+
+        blockchain.add(new Block("Block 4 up and reporting for duty.", blockchain.get(blockchain.size()-1).hash));
+        System.out.println("Trying to Mine block 4...");
+        blockchain.get(3).mineBlock(difficulty);
 
         System.out.println("\nBlockchain is Valid: " + isChainValid());
 
