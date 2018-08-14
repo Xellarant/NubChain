@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc22514-84be-454b-af9c-ab158c71edc9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/nubchain/NubChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nubchain/NubChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NubChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubChain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,12 +206,20 @@
       <updated>1534206343691</updated>
       <workItem from="1534206350825" duration="1312000" />
       <workItem from="1534207698931" duration="4348000" />
-      <workItem from="1534260071015" duration="1019000" />
+      <workItem from="1534260071015" duration="1107000" />
     </task>
+    <task id="LOCAL-00001" summary="added a fourth block to the chain just cuz.">
+      <created>1534261387844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534261387845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6679000" />
+    <option name="totallyTimeSpent" value="6767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -254,6 +260,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added a fourth block to the chain just cuz." />
+    <option name="LAST_COMMIT_MESSAGE" value="added a fourth block to the chain just cuz." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/NubChain.java">

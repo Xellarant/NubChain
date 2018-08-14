@@ -10,7 +10,7 @@ public class NubChain {
     static StopWatch stopwatch = new StopWatch();
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
-    public static int difficulty = 6;
+    public static int difficulty = 5;
 
     public static void main(String[] args) {
         stopwatch.start();
